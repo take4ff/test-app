@@ -44,8 +44,8 @@ export default function FujitaProfile() {
                 <h2>🎯 趣味</h2>
                 <ul>
                     {/* 趣味を追加・変更してね！ */}
-                    <li>読書</li>
-                    <li>ゲーム</li>
+                    <li>映画鑑賞</li>
+                    <li>ラーメン</li>
                     <li>散歩</li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@ export default function FujitaProfile() {
                 <h2>🔥 ハッカソンへの意気込み</h2>
                 <p>
                     {/* 意気込みを書いてね！ */}
-                    チームのみんなと最高のプロダクトを作りたいです！
+                    分からないことだらけですが、精一杯頑張ります。
                 </p>
             </div>
         </div>
