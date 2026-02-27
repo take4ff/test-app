@@ -13,8 +13,8 @@ export default function IrisawaProfile() {
                     ⚡
                 </div>
                 <h1 className="profile-name">
-                    {/* ここに自分の名前を入れてね！ */}
-                    Irisawa
+                    {/* ここに名前を入れてね！ */}
+                    入澤　陽向
                 </h1>
                 <p className="profile-tagline">
                     {/* ひとことコメントを書いてね！ */}
@@ -26,7 +26,8 @@ export default function IrisawaProfile() {
                 <h2>🙋 自己紹介</h2>
                 <p>
                     {/* 自己紹介を自由に書いてね！ */}
-                    こんにちは！Irisawaです。ハッカソン頑張ります！
+                    こんにちは！陽向です。ハッカソン頑張ります！
+                    開発未経験ですが精一杯頑張ります！
                 </p>
             </div>
 
@@ -44,9 +45,9 @@ export default function IrisawaProfile() {
                 <h2>🎯 趣味</h2>
                 <ul>
                     {/* 趣味を追加・変更してね！ */}
-                    <li>読書</li>
-                    <li>ゲーム</li>
-                    <li>散歩</li>
+                    <li>釣り</li>
+                    <li>スノボ</li>
+                    <li>バレーボール</li>
                 </ul>
             </div>
 
