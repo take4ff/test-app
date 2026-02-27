@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 チーム自己紹介サイト
 
-## Getting Started
+ハッカソンチームメンバーの自己紹介ページです。  
+このプロジェクトを使って、**GitHubの基本操作（ブランチ作成 → 編集 → PR作成）** を練習しましょう！
 
-First, run the development server:
+## 📋 やること
+
+自分の自己紹介ページを編集して、Pull Request（PR）を出してみよう！
+
+| メンバー | 編集するファイル |
+|---------|----------------|
+| Fujita    | `app/members/fujita/page.tsx` |
+| Matsumoto | `app/members/matsumoto/page.tsx` |
+| Itoh      | `app/members/itoh/page.tsx` |
+| Irisawa   | `app/members/irisawa/page.tsx` |
+
+## 🛠️ 環境構築
+
+### 必要なもの
+- [Node.js](https://nodejs.org/) (v18以上)
+- [Git](https://git-scm.com/)
+
+### セットアップ手順
 
 ```bash
+# 1. リポジトリをクローン
+git clone <リポジトリURL>
+cd test-app
+
+# 2. 依存パッケージをインストール
+npm install
+
+# 3. 開発サーバーを起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで http://localhost:3000 を開くとサイトが表示されます 🎉
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 GitHub操作の手順
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Step 1: ブランチを作成する
 
-## Learn More
+```bash
+# mainブランチの最新を取得
+git pull origin main
 
-To learn more about Next.js, take a look at the following resources:
+# 自分のブランチを作成して切り替え
+git checkout -b feature/自分の名前-profile
+# 例: git checkout -b feature/fujita-profile
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Step 2: 自己紹介ページを編集する
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+自分のファイル（例: `app/members/fujita/page.tsx`）を開いて、`{/* ここを編集してね！ */}` と書いてある部分を自分の情報に書き換えましょう。
 
-## Deploy on Vercel
+編集できる項目:
+- 🐱 絵文字（アバター）
+- 📛 名前
+- 💬 ひとことコメント
+- 🙋 自己紹介文
+- 🛠️ スキル・興味
+- 🎯 趣味
+- 🔥 意気込み
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Step 3: 変更をコミットする
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# 変更したファイルをステージング
+git add .
+
+# コミット
+git commit -m "feat: Fujitaの自己紹介を追加"
+```
+
+### Step 4: GitHubにプッシュする
+
+```bash
+git push origin feature/自分の名前-profile
+```
+
+### Step 5: Pull Requestを作成する
+
+1. GitHubのリポジトリページを開く
+2. 「Compare & pull request」ボタンをクリック
+3. タイトルと説明を書いて「Create pull request」をクリック
+
+**おめでとう！** 🎉 これでPRが作成できました！
+
+## 🐳 Docker（オプション）
+
+```bash
+docker compose up --build
+```
+
+## 📚 参考リンク
+
+- [Gitの基本](https://git-scm.com/book/ja/v2)
+- [GitHubのPRの作り方](https://docs.github.com/ja/pull-requests)
+- [Next.js公式ドキュメント](https://nextjs.org/docs)
