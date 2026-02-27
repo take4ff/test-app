@@ -26,7 +26,7 @@ export default function MatsumotoProfile() {
                 <h2>🙋 自己紹介</h2>
                 <p>
                     {/* 自己紹介を自由に書いてね！ */}
-                    こんにちは！Matsumotoです。ハッカソン頑張ります！
+                    こんにちは！松本です。ハッカソン頑張ります！
                 </p>
             </div>
 
@@ -44,9 +44,9 @@ export default function MatsumotoProfile() {
                 <h2>🎯 趣味</h2>
                 <ul>
                     {/* 趣味を追加・変更してね！ */}
-                    <li>読書</li>
+                    <li>スポーツ</li>
                     <li>ゲーム</li>
-                    <li>散歩</li>
+                    <li>音楽</li>
                 </ul>
             </div>
 
@@ -54,7 +54,7 @@ export default function MatsumotoProfile() {
                 <h2>🔥 ハッカソンへの意気込み</h2>
                 <p>
                     {/* 意気込みを書いてね！ */}
-                    チームのみんなと最高のプロダクトを作りたいです！
+                    はじめての開発経験ですが、チームのみんなと頑張りたいです。
                 </p>
             </div>
         </div>
