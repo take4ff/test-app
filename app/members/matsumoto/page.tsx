@@ -30,6 +30,14 @@ export default function MatsumotoProfile() {
                 </p>
             </div>
 
+            <div className="profile-section animate-in animate-delay-from">
+                <h2>🙋 出身地</h2>
+                <p>
+                    {/* 出身地を入力 */}
+                    静岡県、浜松市
+                </p>
+            </div>
+
             <div className="profile-section animate-in animate-delay-2">
                 <h2>🛠️ スキル・興味</h2>
                 <div className="tag-list">
