@@ -30,6 +30,14 @@ export default function FujitaProfile() {
                 </p>
             </div>
 
+            <div className="profile-section animate-in animate-delay-1">
+                <h2>🙋 出身地</h2>
+                <p>
+                    {/* 出身地を書いてね！ */}
+                    宮城県
+                </p>
+            </div>
+
             <div className="profile-section animate-in animate-delay-2">
                 <h2>🛠️ スキル・興味</h2>
                 <div className="tag-list">
