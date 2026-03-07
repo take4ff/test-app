@@ -32,6 +32,14 @@ export default function IrisawaProfile() {
             </div>
 
             <div className="profile-section animate-in animate-delay-2">
+                <h2>🙋 出身地</h2>
+                <p>
+                    {/* 出身地を書いてね！ */}
+                    新潟県　新潟市
+                </p>
+            </div>
+
+            <div className="profile-section animate-in animate-delay-3">
                 <h2>🛠️ スキル・興味</h2>
                 <div className="tag-list">
                     {/* 自分のスキルや興味のあるものを追加・変更してね！ */}
@@ -41,7 +49,7 @@ export default function IrisawaProfile() {
                 </div>
             </div>
 
-            <div className="profile-section animate-in animate-delay-3">
+            <div className="profile-section animate-in animate-delay-4">
                 <h2>🎯 趣味</h2>
                 <ul>
                     {/* 趣味を追加・変更してね！ */}
@@ -51,7 +59,7 @@ export default function IrisawaProfile() {
                 </ul>
             </div>
 
-            <div className="profile-section animate-in animate-delay-4">
+            <div className="profile-section animate-in animate-delay-5">
                 <h2>🔥 ハッカソンへの意気込み</h2>
                 <p>
                     {/* 意気込みを書いてね！ */}
