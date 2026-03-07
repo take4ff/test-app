@@ -26,7 +26,7 @@ export default function ItohProfile() {
                 <h2>🙋 自己紹介</h2>
                 <p>
                     {/* 自己紹介を自由に書いてね！ */}
-                    こんにちは！Itohです。ハッカソン頑張ります！
+                    こんにちは！Itohです。ハッカソン頑張ります！出身は栃木です。
                 </p>
             </div>
 
